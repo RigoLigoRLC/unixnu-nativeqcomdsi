@@ -1,0 +1,15 @@
+NativeQcomDsi contains original code licensed under BSD-2-Clause-Patent.
+
+Hardware references:
+https://github.com/Bush-cat/android_kernel_samsung_sm7325-devicetrees
+
+The local reference checkout contains:
+  techpack/display/msm/dsi/dsi_ctrl.c
+  techpack/display/msm/dsi/dsi_ctrl_hw_cmn.c
+  techpack/display/msm/dsi/dsi_ctrl_hw_2_2.c
+  techpack/display/msm/dsi/dsi_ctrl_reg.h
+
+These Qualcomm reference sources retain their GPL-2.0-only license and original
+copyright notices. NativeQcomDsi uses the documented register layout, embedded
+packet format, command FIFO and video-mode scheduling procedures. Board-specific
+panel command values and power sequencing remain in the device package.
